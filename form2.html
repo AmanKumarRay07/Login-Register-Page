@@ -1,0 +1,75 @@
+<html>
+  <head>
+  <title>
+      Register
+    </title>
+   <style>
+    .back
+    {
+       background-image: linear-gradient(120deg, rgba(255, 0, 0, 0.783),skyblue);
+       width: 100%; 
+       height: 100vh;              /* 100vh = browser window ki 100% height */
+       display: flex;              /* Container ko smart layout bana deta hai */
+       justify-content: center;    /* Left ↔ Right control */
+       align-items: center; 
+       
+    }
+      input[type="text"],input[type="phone number"], input[type="email"],input[type="password"]
+      {
+        border:2px black solid;
+        border-radius: 20px;
+        width:200;
+        height:50px; 
+        color:black;
+        border:3px black solid;
+        text-align: center;
+        font-size: 20px;
+      }
+      button
+      {
+        border:2px black solid;
+        border-radius: 50px;
+        background-color: skyblue;
+        height:60px;
+        color:black;
+        width: 150px;
+        font-size: 15px;
+        text-align: center;
+      }
+    </style>
+    <body>
+      <div class="back">
+      <table align="center" bordercolor="black" height="500" width="800">
+        <tr>
+          <td colspan="4"><h1><center><u>New User Register</u></center></h1></td>
+        </tr>
+        <tr>
+          <td><H3>First Name:-</H3></td>
+          <td><input type="text"></td>
+          <TD><h3>Last Name:-</h3></TD>
+         <td><input type="text"></td>
+        </tr>
+          <tr>
+                    <td><h3> UserName:-</h3></td>
+                    <td><input type="text"></td>
+                    <td><h3> Password:-</h3></td>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <td><h3> Email Addresh :-</h3></td>
+                    <td><input type="email"></td>
+                    <td><h3> Mobile Number :-</h3></td>
+                    <td><input type="phone number" maxlength="10"></td>
+                </tr>
+        <tr>
+          <td colspan="4"><center><button type="button"><h3>Register</h3></button></center>
+      
+        </tr>
+         <tr>
+         <td colspan="4" align="center"><h4>Already have for account:- <a href="loging.html">Loging Here</a></h4></td>
+         </tr>
+           </table>
+      </div>
+    </body>
+    </head>
+</html>
